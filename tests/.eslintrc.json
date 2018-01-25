@@ -1,0 +1,15 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 8
+    },
+    "rules": {
+        "no-console": 0,
+        "no-unused-vars": ["error", {
+            "argsIgnorePattern": "^(t|resolve|reject)$"
+        }]
+    },
+    "globals": {
+        "fixture": true,
+        "test": false
+    }
+}
