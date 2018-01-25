@@ -31,7 +31,7 @@ docker run --rm -it -v /my/testcafe/tests/:/tests tomdesinto/testcafe:latest tes
 Limitations
 -----------
 
-Containers created from this image are meant to be used one time and then removed. Issues arise if you try to run the `testcafe` 
+Containers created from this image are meant to be used one time and then removed. Issues arise if you try to run the `testcafe`
 command multiple times in the same container.
 
 
@@ -41,5 +41,5 @@ Building the docker image
 ```sh
 git clone https://github.com/thomasleveil/docker-testcafe.git
 cd docker-testcafe
-doker build -t tomdesinto/testcafe .
+docker build -t tomdesinto/testcafe .
 ```
